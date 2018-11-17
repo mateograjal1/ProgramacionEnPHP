@@ -11,7 +11,7 @@
  *
  * @author 702-1
  */
-include "Operacion.php";
+include_once "Operacion.php";
 
 class Multiplicacion extends Operacion{
     public function __construct($valor1, $valor2)
@@ -22,6 +22,6 @@ class Multiplicacion extends Operacion{
     
     public function imprimir()
     {
-        echo "$this->valor1 * $this->valor2 = " . parent::$resultado;
+        echo "$this->valor1 × $this->valor2 = " . parent::$resultado;
     }
 }

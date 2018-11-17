@@ -1,6 +1,6 @@
 <?php
 
-include "Operacion.php";
+include_once "Operacion.php";
 
 class Suma extends Operacion{
     

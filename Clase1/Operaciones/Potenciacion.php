@@ -11,7 +11,7 @@
  *
  * @author 702-1
  */
-include "Operacion.php";
+include_once "Operacion.php";
 
 class Potenciacion extends Operacion{
     public function __construct($valor1, $valor2)
